@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is description">
+    <title>hi guys</title>
+    <script>
+        function changepage(){
+            window.location.href="https://www.youtube.com/"
+        }
+    </script>
+    <style>
+        img{
+            width: 1500px;
+            opacity: 0.9;
+        }
+        .pop{
+            margin-top: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 450px;
+            position:absolute;
+            z-index:6;
+        }
+        .btn1{
+            width: 200px;
+            height: 100px;
+            transition: transform 2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: lightslategray;
+            box-shadow: 2px;
+            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);}
+        .btn2{
+            width: 200px;
+            height: 100px;
+            transition: transform 2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: lightslategray;
+            box-shadow: 2px;
+            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+        }
+        .btn3{
+            width: 200px;
+            height: 100px;
+            transition: transform 2s;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: lightslategray;
+            box-shadow: 2px;
+            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+        }
+        button:hover{
+            transform: scale(2);
+        }
+        .need{
+            height: 100px;
+            width: 100%;
+            background-color:black;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        #myvideo{
+             position: fixed;
+             right: 0;
+             bottom: 0;
+             min-width: 100%;
+             min-height: 100%;
+        }   
+
+    </style>
+</head>
+<body>
+    <div class="pop">
+        <button class="btn1" onclick="changepage()">one</button>
+        <button class="btn2">two</button>
+        <button class="btn3">three</button>
+    </div>
+    <div class="need">
+
+    </div>
+    <div>
+        <video autoplay muted loop id="myvideo">
+            <source src="../hello/pexels_videos_2421545 (2160p).mp4" type="video/mp4">
+        </video>
+    </div>
+    
+
+    <!-- HTML !-->
+
+
+
+
+   
+   
+    
+</body>
+</html>
