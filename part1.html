@@ -17,42 +17,54 @@
             opacity: 0.9;
         }
         .pop{
-            margin-top: 300px;
+            
+            margin-top: 10px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: right;
+            align-items: right;
             margin-left: 450px;
             position:absolute;
             z-index:6;
         }
         .btn1{
-            width: 200px;
-            height: 100px;
-            transition: transform 2s;
+            margin-left: 750px;
+            float: right;
+            width: 100px;
+            height: 75px;
+            transition: transform 1s;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color: lightslategray;
+            
             box-shadow: 2px;
-            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);}
+            background-image:linear-gradient(to right, #3FC1C0 0%, #04A6C2  51%, #1A5B92  100%);
+            border-radius: 10px;
+        }
         .btn2{
-            width: 200px;
-            height: 100px;
-            transition: transform 2s;
+            
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 100px;
+            height: 75px;
+            transition: transform 1s;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             background-color: lightslategray;
             box-shadow: 2px;
-            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+            background-image:linear-gradient(to right, #3FC1C0 0%, #04A6C2  51%, #1A5B92  100%);
         }
         .btn3{
-            width: 200px;
-            height: 100px;
-            transition: transform 2s;
+            
+            border-radius: 10px;
+            width: 100px;
+            height: 75px;
+            transition: transform 1s;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             background-color: lightslategray;
             box-shadow: 2px;
-            background-image:linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+            background-image:linear-gradient(to right, #3FC1C0 0%, #04A6C2  51%, #1A5B92  100%);
         }
         button:hover{
             transform: scale(2);
+            z-index: 2;
         }
         .need{
             height: 100px;
@@ -74,19 +86,20 @@
 </head>
 <body>
     <div class="pop">
-        <button class="btn1" onclick="changepage()">one</button>
-        <button class="btn2">two</button>
-        <button class="btn3">three</button>
+        <button class="btn1" onclick="changepage()">Student</button>
+        <button class="btn2">Clubs</button>
+        <button class="btn3">SWC</button>
     </div>
-    <div class="need">
+    
 
     </div>
-    <div>
+   <!-- <div>
         <video autoplay muted loop id="myvideo">
             <source src="../hello/pexels_videos_2421545 (2160p).mp4" type="video/mp4">
         </video>
     </div>
-    <!-- hello sahana-->
+-->
+    
 
     <!-- HTML !-->
 
