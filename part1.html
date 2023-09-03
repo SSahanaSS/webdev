@@ -8,17 +8,29 @@
     <title>hi guys</title>
     <script>
         function changepage(){
-            window.location.href="https://www.youtube.com/"
+            window.location.href="second.html"
         }
     </script>
     <style>
+        .header{
+            height: 15%;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            z-index: 1;
+            padding-left: 50px;
+            
+        }
         img{
-            width: 1500px;
-            opacity: 0.9;
+            width: 200px;
+            position: fixed;
+            left: 20px;
+            top: 30px;
+            
         }
         .pop{
             
-            margin-top: 10px;
+            margin-top: 15px;
             display: flex;
             justify-content: right;
             align-items: right;
@@ -26,8 +38,9 @@
             position:absolute;
             z-index:6;
         }
+        
         .btn1{
-            margin-left: 750px;
+            margin-left: 690px;
             float: right;
             width: 100px;
             height: 75px;
@@ -63,7 +76,7 @@
             background-image:linear-gradient(to right, #3FC1C0 0%, #04A6C2  51%, #1A5B92  100%);
         }
         button:hover{
-            transform: scale(2);
+            transform: scale(1.2);
             z-index: 2;
         }
         .need{
@@ -85,20 +98,25 @@
     </style>
 </head>
 <body>
-    <div class="pop">
-        <button class="btn1" onclick="changepage()">Student</button>
-        <button class="btn2">Clubs</button>
-        <button class="btn3">SWC</button>
+    <div class="header">
+        
+        <div class="pop">
+            <img src="../hello/vit_logo_colored.png"/>
+            <button class="btn1" onclick="changepage()">Student</button>
+            <button class="btn2">Clubs</button>
+            <button class="btn3">SWC</button>
+        </div>
+
     </div>
     
 
-    </div>
-   <!-- <div>
+
+    <div class="video">
         <video autoplay muted loop id="myvideo">
             <source src="../hello/pexels_videos_2421545 (2160p).mp4" type="video/mp4">
         </video>
     </div>
--->
+
     
 
     <!-- HTML !-->
@@ -111,3 +129,6 @@
     
 </body>
 </html>
+
+
+
